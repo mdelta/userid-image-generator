@@ -2,7 +2,7 @@ import io
 from flask import (
     Blueprint, escape, send_file
 )
-from PIL import Image, ImageDraw, ImageFont
+from PIL import (Image, ImageDraw, ImageFont)
 
 bp = Blueprint('generator', __name__, url_prefix='/generator')
 
